@@ -4,5 +4,4 @@ interface InterfaceB {
   public function functionD(): string;
   public function functionE(): string;
   public function functionF(): string;
-
 }
