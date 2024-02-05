@@ -8,7 +8,6 @@
 <body>
   <?php
     ini_set("display_errros", "on");
-    echo "Test";
     require_once "myclass.php";
     $obj = new MyClass();
     echo $obj->functionA();
