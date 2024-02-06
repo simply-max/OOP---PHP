@@ -9,8 +9,8 @@ class MyClassAdapter implements InterfaceA, InterfaceB {
   public function functionB(): string {
     return "";
   }
-  public function functionC(): string {
-    return "";
+  public function functionC(): float {
+    return 0;
   }
   public function functionD(): string {
     return "";

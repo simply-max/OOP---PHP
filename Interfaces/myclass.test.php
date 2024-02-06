@@ -13,6 +13,7 @@
     require_once "myclass.php";       // Import myclass
     $obj = new MyClass();             // Objekt der Klasse "MyClass" wird deklariert
     echo $obj->functionA();           // Aufruf der Funktion "functionA" aus Objekt "obj"
+    echo $obj->functionC();
   ?>
 </body>
 </html>

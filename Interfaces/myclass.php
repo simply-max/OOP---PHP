@@ -4,4 +4,7 @@ class MyClass extends MyClassAdapter {    // Klasse "MyClass" wird um den Adapte
   public function functionA(): string {
     return "<p>Ich bin Funktion A</p>";
   }
+  public function functionC(): float {
+    return 5.5;
+  }
 }
