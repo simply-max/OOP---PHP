@@ -1,3 +1,4 @@
+<!-- Grundlegendes HTML Gerüst -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,11 +7,12 @@
   <title>Document</title>
 </head>
 <body>
+  <!-- PHP Code Block -->
   <?php
-    ini_set("display_errros", "on");
-    require_once "myclass.php";
-    $obj = new MyClass();
-    echo $obj->functionA();
+    ini_set("display_errros", "on");  // Fehlermeldungen anschalten
+    require_once "myclass.php";       // Import myclass
+    $obj = new MyClass();             // Objekt der Klasse "MyClass" wird deklariert
+    echo $obj->functionA();           // Aufruf der Funktion "functionA" aus Objekt "obj"
   ?>
 </body>
 </html>
